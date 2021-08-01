@@ -1,9 +1,13 @@
 <h3 align="center">
     <img src="./.github/letmeaskLogoPng.png" alt="Letmeask" />
     <br><br>
-    <b>Letmeask, ask me anything.</b>  
+    <b>Letmeask, create rooms of Q&A.</b>  
     <br>
 </h3>
+
+## Live Demo
+
+- [View Live Demo](https://pisati-letmeask.web.app/)
 
 # Index
 
@@ -66,7 +70,7 @@ The project is made with:
 ## :heavy_check_mark: :computer: Web
 
 <h1 align="center">
-    <img alt="Web" src=".github/happy_web.gif" width="900px">
+    <img alt="Web" src=".github/letmeask.gif" width="900px">
 </h1>
 
 <br>
