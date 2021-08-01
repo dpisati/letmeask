@@ -26,5 +26,9 @@
         width: 240px;
         font-size: 14px;
         font-weight: 500;
+
+        @media screen and (max-width: 700px) {
+            display: none;
+        }
     }
 }
