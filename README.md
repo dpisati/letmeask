@@ -1,7 +1,7 @@
 <h3 align="center">
     <img src="./.github/letmeaskLogoPng.png" alt="Letmeask" />
     <br><br>
-    <b>Letmeask, create rooms of Q&A.</b>  
+    <b>Letmeask, create rooms for Q&A.</b>  
     <br>
 </h3>
 
@@ -25,7 +25,7 @@
 
 ## :bookmark: About
 
-<strong>Letmeask</strong> is a realtime web application and to create rooms of Q&A.
+<strong>Letmeask</strong> is a realtime web application and to create rooms for Q&A.
 
 This application was made during the <strong>Next Level Week - Together</strong> promoted by [Rocketseat](https://rocketseat.com.br/). 
 The app was made to help people to combine questions organized by room. Inside each room, the admin can: highlight, answer and delete questions made in real-time!
