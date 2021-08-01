@@ -1,46 +1,130 @@
-# Getting Started with Create React App
+<h3 align="center">
+    <img src="./.github/letmeaskLogoPng.png" alt="Letmeask" />
+    <br><br>
+    <b>Letmeask, ask me anything.</b>  
+    <br>
+</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Index
 
-## Available Scripts
+- [About](#about)
+- [Functionalities](#functionalities)
+- [Technologies](#technologies)
+- [Preview Web](#preview-web)
+- [Preview Mobile](#preview-mobile)
+- [How to use](#how-to-use)
+- [How to contribute](#how-to-contribute)
 
-In the project directory, you can run:
+<br>
 
-### `yarn start`
+<a id="about"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :bookmark: About
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<strong>Letmeask</strong> is a realtime web application and to create rooms of Q&A.
 
-### `yarn test`
+This application was made during the <strong>Next Level Week - Together</strong> promoted by [Rocketseat](https://rocketseat.com.br/). 
+The app was made to help people to combine questions organized by room. Inside each room, the admin can: highlight, answer and delete questions made in real-time!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `yarn build`
+<a id="functionalities"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :dart: Functionalities
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<br>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Users:
+  - [x] Login using Google account.
+  - [x] Create a new room.
+  - [x] Manage room as administrator.
+  - [x] Enter in an existed room using the room code.
 
-### `yarn eject`
+- Admin:
+  - [x] Highlight question.
+  - [x] Check question as answered.
+  - [x] Delete question.
+  - [x] Close room.
+  
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<a id="technologies"></a>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :rocket: Technologies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The project is made with:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [ReactJS](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Firebase Auth](https://firebase.google.com/)
+- [Firebase Realtime Database](https://firebase.google.com/)
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<a id="preview-web"></a>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :heavy_check_mark: :computer: Web
+
+<h1 align="center">
+    <img alt="Web" src=".github/happy_web.gif" width="900px">
+</h1>
+
+<br>
+
+<a id="how-to-use"></a>
+
+## :fire: How to Use
+
+- ### **Dependencies**
+
+  - Is **required** to install **[Node.js](https://nodejs.org/en/)**
+  - In order to run scripts and install dependencies you need to install a **package manager** (ie: **[YARN](https://yarnpkg.com/)**).
+
+  <br>
+
+1. First step, clone this github repository:
+
+```sh
+  $ git clone https://github.com/dpisati/letmeask.git
+```
+
+2. Run the application:
+
+```sh
+  # Install dependencies for each folder: mobile, server, web.
+  $ yarn
+
+  # Run the app on localhost.
+  $ yarn start
+```
+
+3. Setup an firebase, using auth and realtime database. [Firebase](https://firebase.google.com/):
+
+The **web** application requires a few **tokens** from Firebase. To be able to get those, create a new project on Firebase. Go to the web project and setting to be able to generate the variables listed below.
+
+Example:
+
+File: `letmeask/.env.local`
+
+Content:
+
+```text
+REACT_APP_API_KEY
+REACT_APP_AUTH_DOMAIN
+REACT_APP_DATABASE_URL
+REACT_APP_PROJECT_ID
+REACT_APP_STORAGE_BUCKET
+REACT_APP_MESSAGING_ID
+REACT_APP_APP_ID
+```
+
+<br>
+
+<a id="how-to-contribute"></a>
+
+## :recycle: How to Contribute
+
+- Create a Fork from this repo,
+- Create a branch with your feature: `git checkout -b my-feature`
+- Commit changes: `git commit -m 'feat: My new feature'`
+- Push to your branch: `git push origin my-feature`
