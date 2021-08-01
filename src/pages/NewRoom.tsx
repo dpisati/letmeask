@@ -29,11 +29,6 @@ export function NewRoom() {
         })
 
         history.push(`/rooms/${firebaseRoom.key}`)
-
-
-
-
-
     }
 
     return (
