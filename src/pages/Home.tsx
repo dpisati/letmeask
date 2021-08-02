@@ -64,7 +64,7 @@ export function Home() {
                     </button>
 
                     <div className="separator">
-                        or enter ina room
+                        or enter in a room
                     </div>
 
                     <form onSubmit={handleJoinRoom}>
